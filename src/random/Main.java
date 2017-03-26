@@ -34,11 +34,8 @@ public class Main {
         Comida c1 = new Comida();
         int i = 0;
         int c = 0;
-<<<<<<< HEAD
         int x = 0;
-=======
-        int x;
->>>>>>> 155008a1b6b9e001fa60267a8722cca7be0243d9
+
         serp.add(new Rectangulo(0,0));
         while(!v1.isPulsadoEspacio()){
             v1.escribeTexto("Press space to play", -5, 0, 1, Color.yellow);
